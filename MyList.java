@@ -363,9 +363,5 @@ public class MyList<T> implements AuthorHolder, List<T>{
         return newList;
     }
 
-    @Override
-    public void sort(Comparator<? super T> c) {
-        List.super.sort(c);
 
-    }
 }
